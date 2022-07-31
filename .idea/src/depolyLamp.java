@@ -28,6 +28,12 @@ public class depolyLamp {
                 i+=2;
             }
         }
+         for(int i=0; i<l; i++){
+            if(r.charAt(i) == '.'){
+                sum ++;
+                i+=2;
+            }
+        }
         return sum;
        // int M = sc.nextInt();
 //        for(int i = 0; i < N; i++){
