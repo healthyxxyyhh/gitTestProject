@@ -14,6 +14,7 @@ public class depolyLamp {
             String str = sc.next();
             System.out.println(lampSum(roadLong,str));
         }
+        System.out.println(1);
 
         }
     public static int lampSum(int l,String r){
