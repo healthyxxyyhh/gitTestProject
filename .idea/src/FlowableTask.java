@@ -64,11 +64,13 @@ public class FlowableTask {
         return id;
     }
     }
-    public String add method(){}
 
-    public void setDelegationState(DelegationState delegationState) {
+     /////用于测试
+    //public void setDelegationState(DelegationState delegationState) {
         this.delegationState = delegationState;
     }
+
+
 
     public String getCategory() {
         return category;
