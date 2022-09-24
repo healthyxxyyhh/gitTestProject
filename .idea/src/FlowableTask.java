@@ -15,10 +15,10 @@ public class FlowableTask {
     DelegationState delegationState;
     String category;
     Date claimTime;
-    Date createTime;
+    Date createTimeadfsdgfhg;
     String description;
     Date deuDate;
-    String executionId;
+    String executi;
     String formKey;
     String name;
     String owner;
@@ -59,17 +59,12 @@ public class FlowableTask {
         this.tenantId = task.getTenantId();
     }
 
-    public String getId() {
+    {
+        public String getId () {
         return id;
     }
-
-    public void setId(String id) {
-        this.id = id;
     }
-
-    public DelegationState getDelegationState() {
-        return delegationState;
-    }
+    public String add method(){}
 
     public void setDelegationState(DelegationState delegationState) {
         this.delegationState = delegationState;
