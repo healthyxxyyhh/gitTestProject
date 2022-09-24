@@ -70,7 +70,11 @@ public class FlowableTask {
         this.delegationState = delegationState;
     }
 
-
+    public addmethod() {
+        his.taskDefinitionId = task.getTaskDefinitionId();
+        this.taskDefinitionKey = task.getTaskDefinitionKey();
+        this.tenantId = task.getTenantId();
+    }
 
     public String getCategory() {
         return category;
