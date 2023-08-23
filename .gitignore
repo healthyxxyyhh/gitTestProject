@@ -1,1 +1,18 @@
 # Created by .ignore support plugin (hsz.mobi)
+# idea
+*.iml
+.idea/
+target/
+Logs/
+logs/
+bin/
+rebel.xml
+*.class
+*.log
+application-template.properties
+
+
+# eclipse
+*.iml
+/.settings/*
+/.gitignore
